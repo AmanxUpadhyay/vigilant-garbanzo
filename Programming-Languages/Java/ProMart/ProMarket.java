@@ -87,7 +87,7 @@ public class ProMarket {
             products[productNumber - 1]
                     .setProductQuantity(products[productNumber - 1].getProductQuantity() - productQuantity);
         }
-        // input.close();
+        input.close();
     }
 
     public static void DeleteFromCart(Market[] products, Market[] cart, int cartCount) {
@@ -108,7 +108,7 @@ public class ProMarket {
                 cartCount--;
             }
         }
-        // input.close();
+        input.close();
     }
 
     public static void ViewCart(Market[] cart) {
